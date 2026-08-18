@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><title>Panel Decision</title></head>
+<body style="font-family:sans-serif;max-width:500px;margin:40px auto;padding:0 16px;">
+  <h2>Appeal Decision</h2>
+  <form>
+    <p><label>Fine reference:<br><input type="text" style="width:100%;padding:8px;" value="PF-2410-8923"></label></p>
+    <p><label>Appellant name:<br><input type="text" style="width:100%;padding:8px;" value="Alex Morgan"></label></p>
+    <p><label>Final decision:<br>
+      <select style="width:100%;padding:8px;">
+        <option>Cancel fine</option>
+        <option>Reduce fine</option>
+        <option>Uphold fine</option>
+      </select>
+    </label></p>
+    <p><label>If reduced, new amount ($):<br><input type="number" step="5" style="width:100%;padding:8px;"></label></p>
+    <p><label>Reasoning:<br><textarea rows="3" style="width:100%;padding:8px;"></textarea></label></p>
+    <p><button type="submit" style="background:#2c7a6e;color:white;border:none;padding:10px 20px;cursor:pointer;">Record Decision</button></p>
+  </form>
+  <p style="font-size:12px;">Process 5: outcome → Cancel/Reduce/Uphold → update finance</p>
+</body>
+</html>
