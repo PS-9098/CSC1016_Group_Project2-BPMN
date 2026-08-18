@@ -4,7 +4,7 @@ System analysis, process redesign, and executable BPMN 2.0 architecture for the 
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This repository contains the BPMN 2.0 process models, UML class structures, system designs, and HTML/CSS wireframes created to modernize a previously manual, paper-based university parking system. The system automates application validation, payment reconciliation, zone allocation, violation recording, appeals handling, and permit renewals while enforcing strict SLAs and business rules.
 
@@ -23,7 +23,7 @@ This repository contains the BPMN 2.0 process models, UML class structures, syst
 
 ---
 
-## 👥 Team Members & Roles
+##  Team Members & Roles
 
 | Member | Student ID | Project Role | Contribution
 
@@ -44,7 +44,7 @@ This repository contains the BPMN 2.0 process models, UML class structures, syst
 
 ---
 
-## 🔄 Core Processes (BPMN 2.0 Landscape)
+##  Core Processes (BPMN 2.0 Landscape)
 
 The system models six interconnected end-to-end processes:
 
@@ -69,7 +69,7 @@ The system models six interconnected end-to-end processes:
 
 ---
 
-## 🛠 Business Rules & Design Highlights
+##  Business Rules & Design Highlights
 
 * **Automated Deadlines**: Every SLA/deadline (48h payment, 5d cancellation, 14d appeal window, 30d expiry) is enforced natively by engine timers rather than manual tracking.
 
@@ -86,7 +86,7 @@ The system models six interconnected end-to-end processes:
 
 ---
 
-## 📐 Data Architecture (UML Model)
+##  Data Architecture (UML Model)
 
 The data domain model includes the following primary entities:
 
@@ -111,7 +111,7 @@ The data domain model includes the following primary entities:
 
 ---
 
-## 🎨 User Interface Wireframes
+##  User Interface Wireframes
 
 HTML/CSS mockups are located in the `UI Wireframes/` directory for high-traffic entry points:
 
@@ -127,7 +127,7 @@ HTML/CSS mockups are located in the `UI Wireframes/` directory for high-traffic 
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 .
